@@ -143,7 +143,8 @@
       },
       interactive: {
         handler (value) {
-          value ? document.body.addEventListener('click', this.closeMenu) : document.body.removeEventListener('click', this.closeMenu)
+          if(typeof document === "object")
+            value ? document.body.addEventListener('click', this.closeMenu) : document.body.removeEventListener('click', this.closeMenu)
         },
         immediate: true
       }
