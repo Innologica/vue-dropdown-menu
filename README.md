@@ -1,29 +1,27 @@
-# vue-dropdown-menu
+# Dropdown menu
 
-## Project setup
-```
-npm install
-```
+Universal dropdown menu component for Vue. Any element can be dropdown trigger and anything can be dropdown content.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Fully customizable - supports left/right opening, open on hover/click, interactive mode ...
 
-### Compiles and minifies for production
-```
-npm run build
+## Installation
+
+```shell
+npm i @innologica/vue-dropdown-menu --save
 ```
 
-### Run your tests
-```
-npm run test
+or 
+
+```shell
+yarn add @innologica/vue-dropdown-menu
 ```
 
-### Lints and fixes files
-```
-npm run lint
+import to use:
+
+```JS
+import DropdownMenu from '@innologica/vue-dropdown-menu'
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Demo
+
+Demo and documentation at https://innologica.github.io/vue-dropdown-menu/
