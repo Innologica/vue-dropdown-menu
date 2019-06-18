@@ -1,7 +1,7 @@
-import StackModal from './components/StackModal'
+import DropdownMenu from './components/DropdownMenu'
 
 const install = (Vue) => {
-  Vue.component('StackModal', StackModal)
+  Vue.component('DropdownMenu', DropdownMenu)
 }
 
 // auto install if used in browser
@@ -9,4 +9,4 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-export { StackModal as default }
+export { DropdownMenu as default }

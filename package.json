@@ -1,10 +1,9 @@
 {
-  "name": "vue-dropdown-menu",
+  "name": "@innologica/vue-dropdown-menu",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-stackable-modal ./src/index.js",
+    "lib": "vue-cli-service build --target lib --name vue-dropdown-menu ./src/index.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "prepublish": "npm run lib"
