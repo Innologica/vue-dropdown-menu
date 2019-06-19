@@ -12,6 +12,7 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
+  "main": "src/index.js",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
