@@ -12,7 +12,12 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
-  "main": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/vue-dropdown-menu.umd.min.js",
+  "jsnext:main": "dist/vue-dropdown-menu.umd.min.js",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
