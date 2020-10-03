@@ -30,6 +30,13 @@
             </small>
         </div>
         <div class="form-check">
+            <input class="form-check-input" type="checkbox" v-model="closeOnClickOutside" id="closeOnClickOutside">
+            <label class="form-check-label" for="closeOnClickOutside">closeOnClickOutside</label>
+            <small class="text-muted">
+                (boolean) do not close the dropdown WHEN clicked outside
+            </small>
+        </div>
+        <div class="form-check">
             <input class="form-check-input" type="checkbox" v-model="transition" id="transition">
             <label class="form-check-label" for="transition">transition</label>
             <small class="text-muted">
@@ -70,6 +77,7 @@
                     :hover="hover"
                     :interactive="interactive"
                     :transition="transition ? 'translate-fade-down':''"
+                    :closeOnClickOutside="closeOnClickOutside"
                     style="display: inline-block;"
             >
                 <button class="btn btn-primary dropdown-toggle">Click to open dropdown</button>
@@ -96,6 +104,7 @@
         hover: false,
         interactive: false,
         transition: false,
+        closeOnClickOutside: true,
       }
     },
   }

@@ -52,6 +52,10 @@
       transition: {
         type: String,
         default: '',
+      },
+      closeOnClickOutside: {
+        type: Boolean,
+        default: true
       }
     },
     data () {
@@ -105,7 +109,7 @@
       },
       closeMenu ($event) {
         if (!$event || !this.$el.contains($event.target)) {
-          if (this.value) {
+          if (this.value && this.closeOnClickOutside) {
             this.$emit('input', false)
           }
         }

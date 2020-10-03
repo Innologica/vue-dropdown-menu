@@ -53,6 +53,7 @@ import DropdownMenu from '@innologica/vue-dropdown-menu'
 | value      | Boolean | false |Opens/closes the dropdown. The component uses v-model to control the state of the dropdown.|
 | right      | Boolean | false |Whether to stick the dropdown on the right side of the element.|
 | hover      | Boolean | false |If true the menu is open on hover (after hover_time) else it is open on click.|
+| closeOnClickOutside      | Boolean | true |Should the menu close when clicked outside|
 | hover_time      | Integer | false |Time before the menu opens in hover model. Default: 100ms|
 | transition      | String | '' |The vue transition name used to open the menu. |
 
